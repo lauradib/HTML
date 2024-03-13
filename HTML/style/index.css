@@ -1,0 +1,32 @@
+body {background-color: rgba(255, 228, 196, 0.918);
+color: rgb(255, 228, 196);}
+
+
+#banner{
+
+    width: 80%;
+    width: 400px;
+}
+#cabecalho{
+    background-color:rgb(255, 228, 196);
+    /* espaçamento 1 valor = todos os lados, 2 valores= eixo y (cima e embaixo) e eixo x ( esquerda e direito) e 4 valores+ todos os lados*/    padding: 60px;
+    margin: 0px 0px 10px 0px;
+    color: black;
+}
+
+#link {
+    background-color:rgb(255, 228, 196);
+  
+}
+
+#artigo{
+    width: 100%;
+  background-color: dodgerblue;
+  border-radius: 7px;
+  text-align: center;
+  margin: 40px auto;
+
+}
+p{
+    color: black;
+}   
