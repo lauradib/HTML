@@ -1,0 +1,59 @@
+* {
+ margin: 0%;
+ padding: 0%;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(133, 46, 133);
+    color: rgb(255, 255, 255);}
+
+h3{
+    padding: 8px;}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;}
+
+
+#banner{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/annie-spratt-OWq8w3BYMFY-unsplash.jpg");
+    background-size: cover;
+    gap: 50px;}
+
+
+#body{
+    background-image: url("../images/alexander-grey-SavQfLRm4Do-unsplash.jpg");}
+
+#catalogo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;}
+
+
+#conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+ 
+
+.produto{
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(126, 78, 138, 0.562);
+    box-shadow: 10px 10px 10px 10px rgba(103, 103, 109, 0.404);}
+
+.produto img {
+    width: 100%;
+    background-color: rgb(190, 54, 190);}
